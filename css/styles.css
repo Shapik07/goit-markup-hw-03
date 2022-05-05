@@ -106,6 +106,9 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   color: var(--header-color-text);
+  margin: 0px;
+  padding-top: 95px;
+  text-align: center;
 }
 
 /* Секция-Герой */
@@ -164,6 +167,7 @@ ul {
   display: inline-block;
   margin: 0;
   display: flex;
+  margin-top: 95px;
 }
 
 .Advantages-title {
@@ -172,6 +176,7 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--header-color-text);
+  margin: 0;
 }
 
 .Advantages-text {
@@ -180,9 +185,33 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-text-color);
+  padding-top: 10px;
+  margin: 0;
 }
 
+.advantages-info {
+  margin-right: 30px;
+}
+
+.advantages-info:last-child {
+  margin: 0px;
+}
 /* Чем мы занимаемся */
+
+.work-list {
+  display: flex;
+  margin: 0px;
+}
+
+.work-image {
+  display: flex;
+  margin-top: 50px;
+}
+
+.work-image:not(:last-child) {
+  margin-right: 30px;
+}
+
 
 /* Наша команда */
 

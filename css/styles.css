@@ -16,6 +16,15 @@ body {
   color: var(--header-color-text);
 }
 
+.container {
+  outline: 1px solid tomato;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .site-nav .current {
   color: var(--focus-color-text);
 }
@@ -114,8 +123,6 @@ ul {
 /* Секция-Герой */
 
 .hero {
-  width: 1600px;
-  height: 600px;
   background-color: var(--footer-bg-color);
 }
 

@@ -25,6 +25,16 @@ body {
   margin-left: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .site-nav .current {
   color: var(--focus-color-text);
 }
@@ -44,6 +54,13 @@ ul {
 .footer-nav a,
 .footer-logo {
   text-decoration: none;
+}
+
+.container .footer-logo {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 .logo {
@@ -121,6 +138,22 @@ ul {
   text-align: center;
 }
 
+.team {
+  padding-top: 95px;
+}
+
+.team-card {
+  display: inline-block;
+  display: flex;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 95px;
+}
+
+.team-card-link:not(:last-child) {
+  margin-right: 16px;
+}
+
 /* Секция-Герой */
 
 .hero {
@@ -143,6 +176,8 @@ ul {
   text-transform: uppercase;
   color: var(--white-color-text);
   width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-btn {
@@ -181,6 +216,7 @@ ul {
   margin: 0;
   display: flex;
   margin-top: 95px;
+  margin-bottom: 95px;
 }
 
 .Advantages-title {
@@ -203,6 +239,7 @@ ul {
 }
 
 .advantages-info {
+  display: inline-block;
   margin-right: 30px;
 }
 
@@ -211,14 +248,23 @@ ul {
 }
 /* Чем мы занимаемся */
 
+.work {
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
 .work-list {
   display: flex;
-  margin: 0px;
+  padding: 0;
+  justify-content: center;
+
 }
 
 .work-image {
+  display: inline-block;
   display: flex;
-  margin-top: 50px;
+  margin: 0;
+  padding-bottom: 95px;
 }
 
 .work-image:not(:last-child) {
@@ -289,6 +335,11 @@ ul {
 
 footer {
   background-color: var(--footer-bg-color);
+}
+
+.contacts-nav-footer {
+margin: 0;
+padding-bottom: 60px;
 }
 
 /* Портфолио */

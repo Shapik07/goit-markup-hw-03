@@ -25,6 +25,12 @@ body {
   margin-left: auto;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1,
 h2,
 h3,
@@ -42,6 +48,9 @@ p {
 .list-photo,
 .list-photo-link {
   text-decoration: none;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -143,11 +152,12 @@ ul {
 }
 
 .team-card {
-  display: inline-block;
   display: flex;
   margin: 0;
   padding-top: 50px;
   padding-bottom: 95px;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .team-card-link:not(:last-child) {
@@ -216,10 +226,10 @@ ul {
 
 .Advantages {
   display: inline-block;
-  margin: 0;
   display: flex;
   margin-top: 95px;
   margin-bottom: 95px;
+  padding-inline-start: 0;
 }
 
 .Advantages-title {
@@ -257,13 +267,14 @@ ul {
 }
 
 .work-list {
+  display: inline-block;
   display: flex;
-  padding: 0;
+  margin: 0;
   justify-content: center;
+  padding-inline-start: 0;
 }
 
 .work-image {
-  display: inline-block;
   display: flex;
   margin: 0;
   padding-bottom: 95px;
@@ -281,6 +292,11 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--header-color-text);
+}
+
+.workers-name {
+  display: block;
+  text-align: center;
 }
 
 .Position {
@@ -342,6 +358,7 @@ footer {
 .contacts-nav-footer {
   margin: 0;
   padding-bottom: 60px;
+  padding-inline-start: 0;
 }
 
 /* Портфолио */
@@ -363,6 +380,7 @@ footer {
   display: inline-block;
   display: flex;
   justify-content: center;
+  padding-inline-start: 0;
 }
 
 .list-button {
@@ -408,7 +426,11 @@ footer {
 }
 
 .categories-footer {
-  border-right: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }

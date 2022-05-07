@@ -406,3 +406,9 @@ footer {
   background-color: var(--focus-color-text);
   color: var(--white-color-text);
 }
+
+.categories-footer {
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+}

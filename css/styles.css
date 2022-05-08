@@ -8,8 +8,8 @@
   --button-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   --accent-hero-button: #188ce8;
-  --section-our-team-bc: #F5F4FA;
-  --border-header-color: #ECECEC;
+  --section-our-team-bc: #f5f4fa;
+  --border-header-color: #ececec;
 }
 
 body {
@@ -72,7 +72,6 @@ ul {
 
 .container .footer-logo {
   display: inline-block;
-  padding-top: 60px;
   padding-bottom: 20px;
   margin: 0;
 }
@@ -154,12 +153,12 @@ ul {
 
 .team {
   padding-top: 95px;
+  margin-bottom: 50px;
 }
 
 .team-card {
   display: flex;
   margin: 0;
-  padding-top: 50px;
   padding-bottom: 95px;
   justify-content: center;
   padding-left: 0;
@@ -172,22 +171,21 @@ ul {
 .team-card-link {
   border: 1px solid #ffffff;
   background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Секция-Герой */
 
 .hero {
   background-color: var(--footer-bg-color);
-}
-
-.container-hero {
-  height: 600px;
+  padding: 200px 0;
 }
 
 .hero-title {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 200px;
   padding-bottom: 30px;
   font-size: 44px;
   line-height: 1.36;
@@ -229,9 +227,9 @@ ul {
 
 /* Секция преимуществ */
 
-.Advantages-section {
-  display: flex;
-  padding-top: 0;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .Advantages {
@@ -269,6 +267,26 @@ ul {
 .advantages-info:last-child {
   margin: 0px;
 }
+
+.advantages {
+  display: flex;
+  margin: 0;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  padding-bottom: 10px;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
 /* Чем мы занимаемся */
 
 .work {
@@ -308,10 +326,8 @@ ul {
 .workers-name {
   display: block;
   text-align: center;
-  background-color: #FFFFFF;
-}
-
-.team-photo {
+  background-color: #ffffff;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -321,10 +337,9 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--contacts-text-color);
-  padding-bottom: 30px;
 }
 
-.our-team {
+.our-team-section {
   background-color: var(--section-our-team-bc);
 }
 
@@ -378,8 +393,12 @@ footer {
 
 .contacts-nav-footer {
   margin: 0;
-  padding-bottom: 60px;
   padding-inline-start: 0;
+}
+
+.container-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Портфолио */
@@ -390,6 +409,7 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .categories-btn:not(:last-child) {
@@ -403,8 +423,8 @@ footer {
   display: flex;
   justify-content: center;
   padding-inline-start: 0;
-  padding-top: 50px;
   padding-bottom: 94px;
+  margin-right: -30px;
 }
 
 .list-button {
@@ -416,6 +436,10 @@ footer {
   cursor: pointer;
   border-radius: 4px;
   border-color: transparent;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
 }
 
 .list-button:hover {

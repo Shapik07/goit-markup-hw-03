@@ -73,6 +73,7 @@ ul {
 .container .footer-logo {
   display: inline-block;
   padding-bottom: 20px;
+  padding-top: 0;
   margin: 0;
 }
 
@@ -147,19 +148,16 @@ ul {
   line-height: 1.17;
   color: var(--header-color-text);
   margin: 0px;
-  padding-top: 95px;
   text-align: center;
 }
 
 .team {
-  padding-top: 95px;
   margin-bottom: 50px;
 }
 
 .team-card {
   display: flex;
   margin: 0;
-  padding-bottom: 95px;
   justify-content: center;
   padding-left: 0;
 }
@@ -227,7 +225,8 @@ ul {
 
 /* Секция преимуществ */
 
-.section {
+.section,
+.our-team-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -305,7 +304,6 @@ ul {
 .work-image {
   display: flex;
   margin: 0;
-  padding-bottom: 95px;
 }
 
 .work-image:not(:last-child) {
@@ -369,6 +367,11 @@ ul {
   margin: 0;
 }
 
+.item > a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .contacts-nav-header {
   padding-left: 0px;
   margin-left: auto;
@@ -396,7 +399,7 @@ footer {
   padding-inline-start: 0;
 }
 
-.container-footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -408,8 +411,7 @@ footer {
   margin: 0;
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .categories-btn:not(:last-child) {
@@ -423,8 +425,8 @@ footer {
   display: flex;
   justify-content: center;
   padding-inline-start: 0;
-  padding-bottom: 94px;
   margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .list-button {

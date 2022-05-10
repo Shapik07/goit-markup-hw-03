@@ -230,6 +230,9 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.our-work {
+  padding-top: 0;
+}
 
 .Advantages {
   display: inline-block;
